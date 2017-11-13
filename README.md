@@ -8,12 +8,16 @@ Input format example:
 
 5                         <- number of input DNA sequences
 
-GGATATAAAAAC              |
+GGATATAAAAAC              
 
-GATAACCGCGCAGTGATGAGA     |
+GATAACCGCGCAGTGATGAGA     
 
-TGATGAGATGGGGATATAAAA     |<- input DNA sequences
+TGATGAGATGGGGATATAAAA     <- input DNA sequence
 
-AGATAGATGATAACCGCGCAGT    |
+AGATAGATGATAACCGCGCAGT    
 
-ATGGGGATATAAAAACTTTTTT    |
+ATGGGGATATAAAAACTTTTTT    
+
+Output format example:
+
+AGATAGATGATAACCGCGCAGTGATGAGATGGGGATATAAAAACTTTTTT <- Single DNA sequence that contains all the input sequnces as subsequences
